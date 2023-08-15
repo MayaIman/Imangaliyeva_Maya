@@ -27,10 +27,11 @@ const secondNum = prompt('Введите второе число');
     if (typeof b !== 'number'){
         throw new Error ('Некорректный ввод!');
 
-    }else{
+    } else {
 
      const sumResult = toSum(a, b);
      const divideResult = toDivide(a, b);
+      
     alert(`Ответ: ${sumResult}, ${divideResult}`);
 
     };
